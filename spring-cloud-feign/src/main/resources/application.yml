@@ -1,0 +1,17 @@
+server:
+  port: 8765
+  servlet:
+    context-path: /springCloudFeign
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/springCloudServer/eureka/
+
+spring:
+  application:
+    name: spring-cloud-feign
+
+feign:
+  hystrix:
+    enabled: true

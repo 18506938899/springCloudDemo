@@ -1,0 +1,14 @@
+server:
+  port: 8763
+  servlet:
+    context-path: /springCloudProvider
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/springCloudServer/eureka/
+
+spring:
+  application:
+    name: spring-cloud-provider
+
