@@ -1,0 +1,24 @@
+server:
+  port: 8774
+
+spring:
+  application:
+    name: spring-cloud-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: false
+      routes:
+        - id: spring-cloud-feign
+          uri: lb://spring-cloud-feign
+          predicates:
+            - Path=/springCloudFeign/**
+          filters:
+            - StripPrefix=1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/springCloudServer/eureka/
