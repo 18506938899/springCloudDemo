@@ -1,0 +1,22 @@
+server:
+  port: 8766
+  servlet:
+    context-path: /springCloudZuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/springCloudServer/eureka/
+
+spring:
+  application:
+    name: spring-cloud-zuul
+
+zuul:
+  routes:
+    springCloudFeign:
+      path: /springCloudFeign/**
+      serviceId: spring-cloud-feign
+    springCloudRibbon:
+      path: /springCloudRibbon/**
+      serviceId: spring-cloud-ribbon

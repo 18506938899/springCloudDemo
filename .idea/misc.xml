@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-sleuth-server2/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-server1/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" />
       </list>
     </option>
   </component>

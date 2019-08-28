@@ -2,6 +2,7 @@ package com.spring.cloud.controller;
 
 import com.netflix.discovery.converters.Auto;
 import com.spring.cloud.service.TestRibbonService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
@@ -14,6 +15,7 @@ import org.springframework.web.client.RestTemplate;
  * @author shaokai.zhang
  * @date 2019/8/7
  */
+@Slf4j
 @Controller
 public class AdminTestRibbonController {
 
@@ -30,6 +32,7 @@ public class AdminTestRibbonController {
     @RequestMapping(value = "/testRibbon.shtml")
     @ResponseBody
     public String testRibbon() {
+        log.error(">>>>>>testRibbon<<<<<<");
         return testRibbonService.testRibbon();
     }
 }
