@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /springCloudAlibabaConfig
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        prefix: spring-cloud-alibaba-config
+  application:
+    name: spring-cloud-alibaba-config
+  profiles:
+    active: dev
