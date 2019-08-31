@@ -12,6 +12,7 @@ public class AdminTestAlibabaProviderController {
 
     @RequestMapping(value = "/testAlibabaProvider.shtml")
     public String testAlibabaProvider(){
+        System.out.println("testAlibabaProvider");
         return "testAlibabaProvider";
     }
 }
