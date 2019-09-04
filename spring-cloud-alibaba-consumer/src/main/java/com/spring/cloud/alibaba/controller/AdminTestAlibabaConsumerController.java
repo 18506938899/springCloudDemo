@@ -30,4 +30,5 @@ public class AdminTestAlibabaConsumerController {
         String resutl = testAlibabaConsumerService.testAlibabaConsumerByFeign();
         return resutl;
     }
+
 }
