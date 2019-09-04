@@ -27,8 +27,7 @@ public class AdminTestAlibabaConsumerController {
 
     @RequestMapping(value = "/testAlibabaConsumerByFeign.shtml")
     public String testAlibabaConsumerByFeign(){
-        String resutl = testAlibabaConsumerService
-                .testAlibabaConsumerByFeign();
+        String resutl = testAlibabaConsumerService.testAlibabaConsumerByFeign();
         return resutl;
     }
 }
