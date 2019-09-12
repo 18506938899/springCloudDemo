@@ -10,6 +10,8 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-turbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-ribbion" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-server" charset="UTF-8" />

@@ -20,6 +20,8 @@
         <option value="$PROJECT_DIR$/spring-cloud-alibaba-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-alibaba-config/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-alibaba-setinel/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix-turbine/pom.xml" />
       </list>
     </option>
   </component>
